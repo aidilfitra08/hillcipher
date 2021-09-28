@@ -159,6 +159,7 @@ mulai:
 		}
 	}
 	
+	//menampilkan key sebelum mod 26
 	cout<<"\nKey sebelum di mod 26"<<endl;
     for(int i= 0 ; i < 2; i++){
     	for(int j= 0 ; j < 2; j++){
@@ -167,6 +168,7 @@ mulai:
 		cout<<endl;
 	}
 	
+	//menampilkan key setelah di mod 26
 	cout<<"\nKey setelah di mod 26"<<endl;
 	for(int i= 0 ; i < 2; i++){
     	for(int j= 0 ; j < 2; j++){
@@ -175,6 +177,7 @@ mulai:
 		cout<<endl;
 	}
     
+    //Perulangan untuk memulai program kembali atau keluar program
     string pilih;
     cout << "\n\nApakah ingin diulang ? (Y/N) ";
     cin >> pilih;
